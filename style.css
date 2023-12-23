@@ -1,0 +1,12 @@
+:root {
+  --change-color: rgb(0, 0, 0);
+}
+
+#canvas {
+    visibility: hidden;
+}
+
+.color-box .card-body {
+    background: var(--change-color);
+    width: 300px;
+}
